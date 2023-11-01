@@ -1,0 +1,159 @@
+*{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(253, 247, 239);
+}
+
+.cabecalho{
+    color: white;
+    display: flex;
+    background-color: rgb(224, 203, 236);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 1px 1px black;
+}
+
+.cabeLogo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 8px;
+}
+
+.cabeBotao{
+    align-items: right;
+    margin-left: auto;
+}
+
+.eventos{
+    margin-top: 100px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.caixaLogin{
+    box-shadow: 1px 1px black;
+    width: 200px;
+    height: 112px;
+    background-color:rgba(183, 121, 219, 0.527);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario input{
+    align-items: center;
+}
+
+.input{
+    align-items: center;
+
+}
+
+
+
+.botaoForm{
+    border: none;
+    color: white;
+    background-color:rgb(224, 203, 236);
+    border-radius: 10px;
+}
+
+.caixaCadastro{
+    box-shadow: 1px 1px black;
+    width: 200px;
+    height: 190px;
+    background-color:rgba(183, 121, 219, 0.527);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.evento{
+    display: flex;
+    align-items: center;
+    background-color: rgba(183, 121, 219, 0.527);
+    border-radius: 10px;
+    padding: 2px;
+    width: 1000px;
+    color: white;
+    margin: 10px;
+}
+
+.evento .info{
+    display: flex;
+}
+
+.evento p{
+    margin-left: 20px;
+}
+
+.evento a{
+    text-decoration: none;
+    color: white;
+}
+
+.evento .botao{
+    display: flex;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.botao p{
+    align-items: right;  
+}
+
+.ingresso{
+    display: flex;
+    background-color: rgba(183, 121, 219, 0.527);
+    border-radius: 10px;
+    padding: 2px;
+    color: white;
+    margin: 10px;
+    width: 400px;
+}
+
+.ingresso .info{
+    display: flex;
+}
+
+.ingresso .botao{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.ingresso a{
+    text-decoration: none;
+    color: white;
+}
+
+.ingresso p{
+    margin-left: 20px;
+}
+
+.excluir:hover{
+    color: red;
+}
+
+a:hover{
+    color: darkgray;
+}
